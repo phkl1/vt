@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Velvet</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="logo.png" width="50" height="50" alt="Footcap logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="coverchill.jfif" width="190" height="50" alt="Footcap logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Shop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url(./img/coverchill.jfif);">
+        <div class="container">
+
+          <h2 class="h1 hero-title" style="color: white;">
+            <strong>Chill Kill</strong>
+          </h2>
+
+          <p class="hero-text" style="color: white;">
+            is the third Korean studio album and fourth overall by South Korean girl group Red Velvet. It was released by SM Entertainment on November 13, 2023, and contains ten tracks, including the lead single of the same name.
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Shop Now</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection">
+        <div class="container">
+
+          <ul class="collection-list has-scrollbar">
+
+            <li>
+              <div class="collection-card" style="background-image: url('blackver.jfif')">
+                <h3 class="h4 card-title" style="color: white;">Album</h3>
+
+                <a href="#" class="btn btn-dark">
+                  <span>View All</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card" style="background-image: url('pinkchristmas.jfif')">
+                <h3 class="h4 card-title">Photocard</h3>
+
+                <a href="#" class="btn btn-dark">
+                  <span>View All</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card" style="background-image: url('red-velvet-queendom-cardigan-and-crewneck-socks-set-with-exclusive-photo-card-535172_960x_crop_center.webp')">
+                <h3 class="h4 card-title">Other</h3>
+
+                <a href="#" class="btn btn-dark">
+                  <span>View All</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product">
+        <div class="container">
+
+          <h2 class="h2 section-title">Bestsellers</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn  active">All</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Album</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Photocard</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Other</button>
+            </li>
+
+          </ul>
+
+          <ul class="product-list">
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="pre-order-red-velvet-luvu3-limited-edition-set-331026_960x_crop_center.webp" width="400" height="400" loading="lazy"
+                    alt="Running Sneaker Shoes" class="image-contain">
+
+                  <div class="card-badge">New</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Red Velvet LUVU 3 Limited Edition Set</a>
+                  </h3>
+
+                  <data class="card-price" value="180.85">$27.59</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="kimmunbong.webp" width="312" height="350" loading="lazy"
+                    alt="Leather Mens Slipper" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3 card-title">
+                    <a href="#">RED VELVET OFFICIAL FANLIGHT (LIGHTSTICK)</a>
+                  </h3>
+
+                  <data class="card-price" value="190.85">$55.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="red-velvet-queendom-cardigan-and-crewneck-socks-set-with-exclusive-photo-card-535172_960x_crop_center.webp" width="312" height="350" loading="lazy"
+                    alt="Simple Fabric Shoe" class="image-contain">
+
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Red Velvet [Queendom] Cardigan and Crewneck Socks Set</a>
+                  </h3>
+
+                  <data class="card-price" value="160.85">$58.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="rvvpostcard.webp" width="312" height="350" loading="lazy"
+                    alt="Air Jordan 7 Retro " class="image-contain">
+
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Red Velvet [4th Concert : R to V] Postcard Book </a>
+                  </h3>
+
+                  <data class="card-price" value="170.85">$18.00</data>
+
+                </div>
+
+              </div>
+            </li>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <ul class="cta-list">
+
+            <li>
+              <div class="cta-card" style="background-image: url('F-Yuxx0aoAA3If5.jfif')">
+
+                <h3 class="h2 card-title">New Year Sale Off 50%</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Shop Now</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="cta-card" style="background-image: url('F95C2UsagAA95EP.jfif')">
+
+                <h3 class="h2 card-title">The 3RD album "Chill Kill" out now</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Shop Now</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SPECIAL
+      -->
+
+      <section class="section special">
+        <div class="container">
+
+          <div class="special-banner" style="background-image: url('F-3R39LbMAA1gPS.jfif')">
+            <h2 class="h3 banner-title">New Album</h2>
+
+            <a href="#" class="btn btn-link">
+              <span>View All</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <div class="special-product">
+
+
+            <ul class="has-scrollbar">
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="blackver.jfif" width="312" height="350" loading="lazy"
+                      class="image-contain">
+
+                    <div class="card-badge">New</div>
+
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Photobook Ver.</a>
+                    </h3>
+
+                    <data class="card-price" value="180.85">$16.99</data>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-card" >
+
+                  <figure class="card-banner">
+                    <img src="box.jfif" width="350" height="350" loading="lazy"
+                       class="image-contain">
+                    
+                       <div class="card-badge">New</div>
+
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Package Ver.</a>
+                    </h3>
+
+                    <data class="card-price" value="190.85">$19.99</data>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="bagver.jfif" width="312" height="350" loading="lazy"
+                     class="image-contain">
+
+                    <div class="card-badge">New</div>
+
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Special Ver.</a>
+                    </h3>
+
+                    <data class="card-price" value="160.85">$27.59</data>
+
+                  </div>
+
+                </div>
+              </li>
+
+          </div>
+
+        </div>
+      </section>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer text-center">
+
+    <div class="footer-top section ">
+      <div class="container ">
+
+        <div class="footer-link-box">
+            <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Contact Us</p>
+                </li>
+    
+                <li>
+                  <address class="footer-link">
+                    <ion-icon name="location"></ion-icon>
+    
+                    <span class="footer-link-text">
+                        83-21, Wangsimni-ro, Seongdong-gu, Seoul, Republic of Korea
+                    </span>
+                  </address>
+                </li>
+    
+                <li>
+                  <a href="tel:+99565666566" class="footer-link">
+                    <ion-icon name="call"></ion-icon>
+    
+                    <span class="footer-link-text">+99565666566</span>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="Redvelvet.com" class="footer-link">
+                    <ion-icon name="mail"></ion-icon>
+    
+                    <span class="footer-link-text">Red Velvet.com</span>
+                  </a>
+                </li>
+    
+              </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">My Account</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">My Account</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">View Cart</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">New Products</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="newsletter-text">
+               Update for you
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+
+          </div>
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            
+            <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-tiktok"></ion-icon>
+                </a>
+              </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">Red Velvet</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="/code/red.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
